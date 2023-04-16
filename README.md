@@ -1,6 +1,7 @@
 # Java Lab
 
 [Link to course](http://www.iwanoff.inf.ua/java_ua_2/index.html)
+
 The course "Advanced Java Programming Course" is devoted to the theoretical and practical aspects of using Java language tools and the JavaSE platform. For students of various specialties
 
 ## Laboratory work 1
