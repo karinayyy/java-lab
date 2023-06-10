@@ -1,0 +1,5 @@
+Subway_station_name='Kholodnogirska', year_of_open=1975, Hours:{Pass_num: 1267, Comment: 'bcoment i am very big', Time_of_editing: суббота, 25 марта 2023 г.}
+{Pass_num: 213, Comment: 'acomment i am', Time_of_editing: суббота, 4 марта 2023 г.}
+{Pass_num: 800, Comment: 'wcomment i am very', Time_of_editing: понедельник, 24 апреля 2023 г.}
+{Pass_num: 1500, Comment: 'zcomment i', Time_of_editing: вторник, 14 февраля 2023 г.}
+{Pass_num: 1000, Comment: 'comment', Time_of_editing: четверг, 20 апреля 2023 г.}

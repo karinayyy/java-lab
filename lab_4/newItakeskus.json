@@ -1,0 +1,25 @@
+{
+  "com.karinayyy.lab4.taskone.MetroStream": {
+    "idstation": 5,
+    "name": "new Itäkeskus",
+    "openingYear": 1983,
+    "hours": [
+      {
+        "passengersNumber": 1267,
+        "comment": "test com to new Itäkeskus"
+      },
+      {
+        "passengersNumber": 123,
+        "comment": "not many people new Itäkeskus"
+      },
+      {
+        "passengersNumber": 1500,
+        "comment": "short new Itäkeskus"
+      },
+      {
+        "passengersNumber": 1000,
+        "comment": "some comment new Itäkeskus"
+      }
+    ]
+  }
+}

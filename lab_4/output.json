@@ -1,0 +1,29 @@
+{
+  "com.karinayyy.lab4.taskone.MetroStream": {
+    "idstation": 0,
+    "name": "Kamppi",
+    "openingYear": 1983,
+    "hours": [
+      {
+        "passengersNumber": 1267,
+        "comment": "test com to Kamppi"
+      },
+      {
+        "passengersNumber": 123,
+        "comment": "not many people"
+      },
+      {
+        "passengersNumber": 10,
+        "comment": "midnight"
+      },
+      {
+        "passengersNumber": 1500,
+        "comment": "short"
+      },
+      {
+        "passengersNumber": 1000,
+        "comment": "some comment"
+      }
+    ]
+  }
+}

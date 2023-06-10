@@ -1,0 +1,33 @@
+<org.example.taskfirst.ListSubwStream>
+  <name>Kholodnogirska</name>
+  <openingYear>1975</openingYear>
+  <hours class="java.util.Arrays$ArrayList">
+    <a class="org.example.taskfirst.HourWithDates-array">
+      <org.example.taskfirst.HourWithDates>
+        <passengersNumber>1267</passengersNumber>
+        <comment>bcoment i am very big</comment>
+        <timeOfEditing>2023-03-06T02:22:40.0449235+02:00[Europe/Kiev]</timeOfEditing>
+      </org.example.taskfirst.HourWithDates>
+      <org.example.taskfirst.HourWithDates>
+        <passengersNumber>213</passengersNumber>
+        <comment>acomment i am</comment>
+        <timeOfEditing>2023-02-13T02:22:40.0459216+02:00[Europe/Kiev]</timeOfEditing>
+      </org.example.taskfirst.HourWithDates>
+      <org.example.taskfirst.HourWithDates>
+        <passengersNumber>800</passengersNumber>
+        <comment>wcomment i am very</comment>
+        <timeOfEditing>2023-04-05T02:22:40.0459216+03:00[Europe/Kiev]</timeOfEditing>
+      </org.example.taskfirst.HourWithDates>
+      <org.example.taskfirst.HourWithDates>
+        <passengersNumber>1500</passengersNumber>
+        <comment>zcomment i</comment>
+        <timeOfEditing>2023-01-26T02:22:40.0459216+02:00[Europe/Kiev]</timeOfEditing>
+      </org.example.taskfirst.HourWithDates>
+      <org.example.taskfirst.HourWithDates>
+        <passengersNumber>1000</passengersNumber>
+        <comment>comment</comment>
+        <timeOfEditing>2023-04-01T02:22:40.0459216+03:00[Europe/Kiev]</timeOfEditing>
+      </org.example.taskfirst.HourWithDates>
+    </a>
+  </hours>
+</org.example.taskfirst.ListSubwStream>

@@ -1,0 +1,11 @@
+{
+  "com.karinayyy.lab4.taskone.MetroStream": {
+    "idstation": 0,
+    "name": "Itäkeskus",
+    "openingYear": 1983,
+    "hours": {
+      "passengersNumber": 10,
+      "comment": "midnight"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<com.karinayyy.lab4.taskone.MetroStream>
+  <idstation>0</idstation>
+  <name>Kamppi</name>
+  <openingYear>1983</openingYear>
+  <hours>
+    <passengersNumber>1267</passengersNumber>
+    <comment>test com to Kamppi</comment>
+  </hours>
+  <hours>
+    <passengersNumber>1000</passengersNumber>
+    <comment>some comment</comment>
+  </hours>
+  <hours>
+    <passengersNumber>10</passengersNumber>
+    <comment>midnight</comment>
+  </hours>
+  <hours>
+    <passengersNumber>1234</passengersNumber>
+    <comment>com from gui</comment>
+  </hours>
+</com.karinayyy.lab4.taskone.MetroStream>

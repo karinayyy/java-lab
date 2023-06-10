@@ -1,0 +1,24 @@
+<com.karinayyy.lab4.taskone.MetroStream>
+  <name>Kholodnogirska</name>
+  <openingYear>1975</openingYear>
+  <hours>
+    <passengersNumber>1267</passengersNumber>
+    <comment>bcoment i am very big</comment>
+  </hours>
+  <hours>
+    <passengersNumber>213</passengersNumber>
+    <comment>acomment i am</comment>
+  </hours>
+  <hours>
+    <passengersNumber>800</passengersNumber>
+    <comment>wcomment i am very</comment>
+  </hours>
+  <hours>
+    <passengersNumber>1500</passengersNumber>
+    <comment>zcomment i</comment>
+  </hours>
+  <hours>
+    <passengersNumber>1000</passengersNumber>
+    <comment>comment</comment>
+  </hours>
+</com.karinayyy.lab4.taskone.MetroStream>

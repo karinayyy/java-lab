@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<BorderPane prefHeight="500.0" prefWidth="700.0"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.karinayyy.lab4.taskone.MetroController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <Menu mnemonicParsing="false" text="Файл">
+                <MenuItem mnemonicParsing="false" text="Новий" onAction="#doNew"/>
+                <MenuItem mnemonicParsing="false" text="Відкрити..." onAction="#doOpen"/>
+                <MenuItem mnemonicParsing="false" text="Зберегти..." onAction="#doSave"/>
+                <MenuItem mnemonicParsing="false" text="Вийти" onAction="#doExit"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Редагування">
+                <MenuItem mnemonicParsing="false" text="Додати рядок" onAction="#doAdd"/>
+                <MenuItem mnemonicParsing="false" text="Видалити останній рядок" onAction="#doRemove"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Робота">
+                <MenuItem mnemonicParsing="false" text="Сортувати за зменшенням кількості пасажирів"
+                          onAction="#sortByPassengerNumberDesc"/>
+                <MenuItem mnemonicParsing="false" text="Сортувати за зменшенням довжини коментаря"
+                          onAction="#sortByCommentLengthDesc"/>
+                <MenuItem mnemonicParsing="false" text="Сортувати by comment in alphabetical order"
+                          onAction="#sortByCommentAlphabetically"/>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Допомога">
+                <MenuItem mnemonicParsing="false" text="Про програму..." onAction="#doAbout"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <left>
+        <AnchorPane prefHeight="472.0" prefWidth="250.0" BorderPane.alignment="CENTER">
+            <Label text="Metro station" AnchorPane.leftAnchor="11.0"
+                   AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="14.0"/>
+            <TextField fx:id="textFieldMetroStation" prefHeight="22.0" AnchorPane.leftAnchor="11.0"
+                       AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="35.0" onKeyReleased="#nameChanged"/>
+            <Label text="Opening Year" AnchorPane.leftAnchor="11.0"
+                   AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="69.0"/>
+            <TextField fx:id="textFieldOpeningYear" prefHeight="22.0" AnchorPane.leftAnchor="11.0"
+                       AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="90.0" onKeyReleased="#openingYearChanged"/>
+
+            <TextArea fx:id="textAreaAvrg"
+                      AnchorPane.leftAnchor="11.0"
+                      AnchorPane.topAnchor="280.0"/>
+
+            <Label text="Find hour by comment:" AnchorPane.leftAnchor="11.0"
+                   AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="154.0"/>
+            <TextField fx:id="textFieldHourByComment" prefHeight="22.0" AnchorPane.leftAnchor="11.0"
+                       AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="175.0"/>
+            <Button mnemonicParsing="false" prefHeight="22.0"
+                    text="Find hour" AnchorPane.leftAnchor="11.0"
+                    AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="210.0" onAction="#doFindHoursByComment"/>
+            <TextArea fx:id="textAreaResults"
+                      AnchorPane.leftAnchor="11.0"
+                      AnchorPane.topAnchor="280.0"/>
+        </AnchorPane>
+    </left>
+
+    <center>
+        <TableView fx:id="tableViewHours" prefHeight="473.0" prefWidth="114.0"
+                   BorderPane.alignment="CENTER" editable="true">
+            <columns>
+                <TableColumn fx:id="tableColumnPassengerCount" prefWidth="50.0" text="Passengers count"/>
+                <TableColumn fx:id="tableColumnComment" prefWidth="100.0" text="Commentary"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
